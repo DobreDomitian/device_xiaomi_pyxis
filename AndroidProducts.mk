@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_pyxis.mk
+    $(LOCAL_DIR)/revengeos_pyxis.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_pyxis-userdebug \
-    aosp_pyxis-user \
-    aosp_pyxis-eng
+    revengeos_pyxis-userdebug \
+    revengeos_pyxis-user \
+    revengeos_pyxis-eng
