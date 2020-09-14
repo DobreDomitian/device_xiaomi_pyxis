@@ -172,14 +172,6 @@ PRODUCT_PACKAGES += \
     android.hardware.contexthub@1.0-impl.generic \
     android.hardware.contexthub@1.0-service
 
-# Fingerprint
-PRODUCT_PACKAGES += \
-    vendor.lineage.biometrics.fingerprint.inscreen@1.1-service.xiaomi_pyxis \
-    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_pyxis
-
-PRODUCT_COPY_FILES += \
-    vendor/aosp/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml \
-
 # Net
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
