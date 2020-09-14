@@ -9,6 +9,8 @@ BOARD_VENDOR := xiaomi
 DEVICE_PATH := device/xiaomi/pyxis
 
 BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := pyxis
 
