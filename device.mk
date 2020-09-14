@@ -33,7 +33,7 @@ TARGET_HAS_FOD := true
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-rr
+    $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
@@ -182,7 +182,7 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.xiaomi_pyxis
 
 PRODUCT_COPY_FILES += \
-    vendor/rr/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml \
+    vendor/lineage/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml \
 
 # Net
 PRODUCT_PACKAGES += \
@@ -208,8 +208,8 @@ PRODUCT_PACKAGES += \
     libtinyxml \
     libvulkan \
     memtrack.sdm710 \
-    vendor.display.config@1.9 \
-    vendor.display.config@1.9.vendor \
+    vendor.display.config@1.7 \
+    vendor.display.config@1.7.vendor \
     vendor.qti.hardware.display.allocator@1.0-service
 
 # Audio
